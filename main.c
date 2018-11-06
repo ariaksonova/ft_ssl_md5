@@ -6,7 +6,7 @@ int main(int ac, char **av)
     {
         if (!ft_strcmp(av[1], "md5"))
         {
-            ft_md5();
+            ft_md5(av+2);
         }
 //        else if (!ft_strcmp(av[1], "sha256"))
     }
